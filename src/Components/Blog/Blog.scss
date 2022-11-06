@@ -1,0 +1,105 @@
+.Banner {
+  display: flex;
+  height: 624px;
+  width: 100%;
+
+  .banner-bg-img {
+    width: 50%;
+    height: 624px;
+    background-image: url("../../Assets/BgImage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .overLay {
+      background-image: url("../../Assets/Overlay.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 624px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .banner-bg-text {
+      font-weight: 800;
+      font-size: 64px;
+      line-height: 84px;
+      letter-spacing: -0.03em;
+      color: #ffffff;
+    }
+  }
+
+  .banner-bg-dark {
+    display: flex;
+    align-items: center;
+    background: #1e1b1b;
+    opacity: 0.99;
+    width: 50%;
+    color: #ffffff;
+
+    .bannerP {
+      font-weight: 700;
+      font-size: 40px;
+    }
+  }
+}
+.featureContainer {
+  min-height: 500px;
+  background: #f5f5f5;
+
+  .featureCard {
+    padding-bottom: 30px;
+    background: #ffffff;
+
+    .card-img {
+      width: 32%;
+    }
+    .card-body {
+      width: 68%;
+
+      .postInfo {
+        color: #939191;
+        font-size: 16px;
+        line-height: 28px;
+        .postdate {
+          font-weight: 600;
+        }
+      }
+      .featureText {
+        font-weight: 500;
+        color: #ff6433;
+      }
+
+      .featureHeading {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 140%;
+        letter-spacing: -0.03em;
+        color: #1e1b1b;
+      }
+      .featurDiscription {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #232536;
+        opacity: 0.6;
+      }
+      .readmore {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 175%;
+        color: #1e1b1b;
+      }
+    }
+  }
+ 
+}
+.cutomCardBtn {
+  background: #1e1b1b;
+  border-radius: 12px;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+}
